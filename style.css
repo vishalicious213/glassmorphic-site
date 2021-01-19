@@ -10,6 +10,7 @@ h1 {
   font-size: 3rem;
   opacity: 0.8;
 }
+
 h2,
 p, summary, li {
   color: #A569BD;
@@ -55,6 +56,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -73,10 +75,12 @@ main {
   top: 5%;
   right: 7.5%;
 }
+
 .circle2 {
   bottom: 5%;
   left: 5%;
 }
+
 .dashboard {
   flex: 1;
   display: flex;
@@ -91,14 +95,21 @@ main {
   );
   border-radius: 2rem;
 }
+
 .link {
   display: flex;
   margin: 2rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
+
 .link h2 {
   padding: 0rem 2rem;
+}
+
+.link img {
+  width: 2rem;
+  opacity: 0.8;
 }
 
 .games {
@@ -190,4 +201,8 @@ summary:focus {
 
 summary:hover {
   cursor: pointer;
+}
+
+ul {
+  margin-left: 1.1rem;
 }
