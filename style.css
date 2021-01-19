@@ -112,11 +112,11 @@ main {
   opacity: 0.8;
 }
 
-.games {
+.projects {
   flex: 2;
 }
 
-.pro {
+.portfolio {
   background: linear-gradient(to right top, indigo, purple);
   opacity: 0.8;
   border-radius: 2rem;
@@ -125,23 +125,24 @@ main {
   position: relative;
 }
 
-.pro img {
+.portfolio img {
   width: 12rem;
   border-radius: 1rem;
   margin-top: .5rem;
 }
 
-.pro h2 {
+.portfolio h2 {
   color: white;
   font-weight: 600;
 }
 
-/* GAMES */
-.status {
+/* PROJECTS */
+
+.project-header {
   margin-bottom: 3rem;
 }
 
-.status .divider {
+.project-header .divider {
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -154,7 +155,7 @@ main {
   border-radius: 2rem;
 }
 
-.games {
+.projects {
   margin: 5rem;
   display: flex;
   flex-direction: column;
