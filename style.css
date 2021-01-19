@@ -117,7 +117,8 @@ main {
 }
 
 .pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, indigo, purple);
+  opacity: 0.8;
   border-radius: 2rem;
   color: white;
   padding: 1rem;
@@ -125,12 +126,12 @@ main {
 }
 
 .pro img {
-  position: absolute;
-  top: -10%;
-  right: 10%;
+  width: 12rem;
+  border-radius: 1rem;
+  margin-top: .5rem;
 }
+
 .pro h2 {
-  width: 40%;
   color: white;
   font-weight: 600;
 }
