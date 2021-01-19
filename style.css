@@ -48,8 +48,6 @@ main {
     to right bottom,
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
-    /* rgba(119, 136, 153, 0.3),
-    rgba(70, 130, 180, 0.7) */
   );
   border-radius: 2rem;
   z-index: 2;
@@ -173,7 +171,6 @@ main {
   margin: 2rem 0rem;
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  /* justify-content: space-between; */
 }
 
 .card img {
@@ -190,7 +187,6 @@ main {
 .card-info {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .vish {
@@ -207,4 +203,43 @@ summary:hover {
 
 ul {
   margin-left: 1.1rem;
+}
+
+/* 1100px */
+
+@media only screen and (max-width: 1100px) {
+  .glass {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+  }
+
+  .vish {
+    margin-top: 2rem;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .link {
+    display: flex;
+    width: 40%;
+    margin: 1rem 0;
+    padding: 0 5rem;
+  }
+
+  .portfolio {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  .portfolio img {
+    width: 70%;
+    margin-top: 1rem;
+  }
 }
