@@ -183,3 +183,11 @@ main {
 .vish {
   border-radius: 50%;
 }
+
+summary:focus {
+  outline: none;
+}
+
+summary:hover {
+  cursor: pointer;
+}
