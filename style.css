@@ -121,6 +121,7 @@ main {
   color: white;
   padding: 1rem;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .portfolio img {
@@ -191,6 +192,8 @@ main {
 
 .vish {
   border-radius: 50%;
+  width: 50%;
+  margin-top: 2rem;
 }
 
 summary:focus {
