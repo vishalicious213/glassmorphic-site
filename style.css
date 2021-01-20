@@ -221,20 +221,22 @@ ul {
   .links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     margin: 1rem 0;
   }
 
   .link {
+    border: 1px solid purple;
+    border-radius: 1rem;
+    padding: .5rem 0 0 1.5rem;
     display: flex;
-    width: 40%;
-    margin: 1rem 0;
-    padding: 0 5rem;
+    width: 15rem;
+    margin: 1rem;
   }
 
   .portfolio {
-    width: 70%;
+    width: 90%;
     margin-bottom: 2rem;
   }
 
@@ -244,19 +246,15 @@ ul {
   }
 }
 
-/* 767px */
+/* 800px */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
   .link {
     border: 1px solid purple;
     border-radius: 1rem;
     padding: .5rem;
     justify-content: center;
     align-items: center;
-    width: 90%;
-  }
-
-  .portfolio {
     width: 90%;
   }
 
