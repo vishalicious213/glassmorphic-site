@@ -289,4 +289,12 @@ ul {
     width: 90%;
     margin-top: 0;
   }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+  }
 }
