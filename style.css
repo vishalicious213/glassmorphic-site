@@ -235,6 +235,14 @@ ul {
     margin: 1rem;
   }
 
+  .projects {
+    margin: 2rem 1rem 0 1rem;
+  }
+
+  .project-header {
+    margin-bottom: 0;
+  }
+
   .portfolio {
     width: 90%;
     margin-bottom: 2rem;
