@@ -243,3 +243,44 @@ ul {
     margin-top: 1rem;
   }
 }
+
+/* 767px */
+
+@media only screen and (max-width: 767px) {
+  .link {
+    border: 1px solid purple;
+    border-radius: 1rem;
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .portfolio {
+    width: 90%;
+  }
+
+  .projects {
+    margin: 0;
+    align-items: center;
+  }
+
+  .project-header {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divider {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .cards {
+    width: 90%;
+    margin-top: 0;
+  }
+}
